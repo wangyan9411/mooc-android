@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolonline"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.example.schoolonline.util.StaticData"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.schoolonline.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.HomePageActivity"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.HomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_home"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.ProfileSettingActivity"
+            android:label="@string/title_activity_profile_setting" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.PostListActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.PostEditorActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.SinglePostActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.CoursePageActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.SearchFriendsActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.NewFriendsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.InfoActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.InfoHead"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.ContactsActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.contactInfo"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.ChatActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.example.schoolonline.SearchPostActivity"
+            android:label="" >
+        </activity>
+    </application>
+</manifest>
